@@ -20,5 +20,5 @@ fn get_reminders(req: Request) -> Response {
         Reminder(3, "Call mom")
     ]
 
-    
+    wisp.not_found()
 }
